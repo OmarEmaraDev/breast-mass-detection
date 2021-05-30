@@ -13,12 +13,16 @@ Manually download the dataset and extract it in an internal directory `dataset`:
 
 Train the model and view a sample class activation map:
 
-```python
+```
 python main.py
 ```
 
 Skip training and use a previously trained checkpoint saved model:
 
-```python
+```
 python main.py --skip-training
 ```
+
+# Sample
+
+![Class Activation Map](docs/classActivationMap.png)
